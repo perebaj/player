@@ -1,0 +1,6 @@
+
+
+addEventListener("load", () => {
+    player.start();
+    
+})
