@@ -1,4 +1,4 @@
-window.audios = [
+export default [
   {
     title:
       "Peita da loste",

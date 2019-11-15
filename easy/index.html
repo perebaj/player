@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,20 +8,38 @@
     <title>Sound JJ</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div id="player">
         <h4><i class="material-icons">equalizer</i> JJ cast</h4>
         <div class="card">
-            <div class="card-image"></div>
+            <div class="card-image">
+                <a href="#" class="btn-floating btg-large halfway-fab">
+                    <i class="material-icons" id="play-pause">play_arrow</i>
+                </a>
+            </div>
             <div class="card-content">
                 <h5>Title</h5>
                 <p class="artist">Artist</p>
-                <audio controls src=""></audio>
+                <div class="row valign-wrapper">
+                    <div class="col s2" id="current-duration">00:00</div>
+                    <div class="col s6 range-field valign-wrapper">
+                        <input type="range" min="0" max="0" step="1" id="seekbar" />
+                    </div>
+                    <div class="col s2" id="total-duration">00:00</div>
+                    <div>
+                        <a href="#">
+                            <i class="material-icons" id="vol">volume_up</i>
+                        </a>
+                    </div>
+                    <div class="col s6 range-field valign-wrapper">
+                        <input  type="range" min="0" max="100" step="1" id="vol-control" />
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <script src="data.js"></script>
-    <script src="player.js"></script>
-    <script src="index.js"></script>
+    <script src="index.js" type="module"></script>
 </body>
+
 </html>

@@ -5,16 +5,16 @@
 ### Easy
 
 - [x] Iniciar a estrutura do layout (HTML e CSS).
-- [] Criar o player de audio
-- [] Fazer o player tocar automaticamente quando a janela abrir
-- [] Ok, me arrependi, o player tocando automaticamente é horrível. Remova esta opção de autoplay
-- [] Alimentar o player com os dados de audio
+- [x] Criar o player de audio
+- [x] Fazer o player tocar automaticamente quando a janela abrir
+- [x] o player tocando automaticamente é uma merda
+- [x] Alimentar o player com os dados de audio
 
 ### Moderate
 
-- [] Refatorar: Criar um objeto para guardar o estado, funcionalidades e configurações do player
-- [] Quando o audio finalizar, iniciar o próximo da lista
-- [] Quando chegar no último audio, voltar a reproduzir o primeiro.
+- [x] Refatorar: Criar um objeto para guardar o estado, funcionalidades e configurações do player
+- [x] Quando o audio finalizar, iniciar o próximo da lista
+- [x] Quando chegar no último audio, voltar a reproduzir o primeiro.
 
 ### Hard
 
